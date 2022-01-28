@@ -96,13 +96,15 @@ nav{
     text-decoration: none;
 }
 .logo{
-    width:30%;
+    width:50%;
+    height: 100%;
     display:flex;
     justify-content: center;
     align-items: center;
 }
 .logo img{
     width:50%;
+    height: auto;
 }
 .links{
     width:100%;
@@ -239,57 +241,58 @@ footer {
 /*About Page Styles*/
 
 .Strategy, .How_We_Work, .Places_We_Work, .Collaboration, h2 {
-    margin-top:15px;
-    
-  }
+  margin-top:15px;
   
-  
-  .Strategy, .How_We_Work, .Places_We_Work, .Collaboration {
-    margin-bottom: 15px;
-    width:100%;
-    margin-right:30px;
-    border-bottom: 2px dotted black;
-    
-  }
-  
-  .Work_Together {
-    width:100%;
-    margin-bottom:30px;
-  }
-  .Work_Together p {
-    width:800px;
-    margin-bottom:30px;
+}
 
-  }
-  
-  button {
-      display: inline-block;
-      width: 140px;
-      height: 35px;
-      margin-top: 20px;
-      padding: 10px 0;
-      border: 1px solid black;
-      border-radius: 5px;
-      font-family: inherit;
-      font-size: 12px;
-      text-align: center;
-      text-decoration: none;
-      color: black;
-      background-color: white;
-      margin-bottom:15px;
-  }
 
-  .logo-img{
-      width: 40%;
-  }
+.Strategy, .How_We_Work, .Places_We_Work, .Collaboration {
+  margin-bottom: 15px;
+  width:100%;
+  margin-right:30px;
+  border-bottom: 2px dotted black;
+  
+}
+
+.Work_Together {
+  width:100%;
+  margin-bottom:30px;
+}
+.Work_Together p {
+  width:800px;
+  margin-bottom:30px;
+
+}
+
+button {
+    display: inline-block;
+    width: 140px;
+    height: 35px;
+    margin-top: 20px;
+    padding: 10px 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    margin-bottom:15px;
+}
+
+.logo-img{
+    width: 40%;
+}
 
 
 /*Responsive Styles*/
-@media (max-width:500px){
+@media (max-width:00px){
     nav{
         flex-direction:column ;
         align-items: center;
     }
+
     
  .middle-content .boxes{
         flex-wrap: wrap;
