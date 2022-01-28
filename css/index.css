@@ -262,7 +262,7 @@ footer {
 }
 
 .about-page .middle-content .content-block {
-  border-bottom: 1px dashed black;
+  border-bottom: 1px solid #ff4b00;
   width: 47%;
   margin-bottom: 50px;
 }
@@ -304,32 +304,6 @@ footer {
 .banner img{
   width: 20%;
 }
-
-
-
-
-
-/* 
-button {
-    display: inline-block;
-    width: 140px;
-    height: 35px;
-    margin-top: 20px;
-    padding: 10px 0;
-    border: 1px solid black;
-    border-radius: 5px;
-    font-family: inherit;
-    font-size: 12px;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    background-color: white;
-    margin-bottom:15px;
-}
-
-.logo-img{
-    width: 40%;
-} */
 
 
 /*Responsive Styles*/
