@@ -240,29 +240,69 @@ footer {
 
 /*About Page Styles*/
 
-.Strategy, .How_We_Work, .Places_We_Work, .Collaboration, h2 {
-  margin-top:15px;
-  
+.about-page .top-content {
+  display: block;
+  padding-left: 20px;
+  padding-bottom: 20px;
 }
 
+.about-page .middle-content {
+  width: 100%;
+  border-bottom: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 0px;
+}
 
-.Strategy, .How_We_Work, .Places_We_Work, .Collaboration {
+.about-page .middle-content .content-block {
+  border-bottom: 1px dashed black;
+  width: 47%;
+  margin-bottom: 50px;
+}
+
+.about-page .middle-content .content-block img {
+  width: 100%;
+}
+
+.about-page .middle-content .content-block h2 {
+  margin-top: 15px;
+}
+
+.about-page .middle-content .content-block p {
+  padding-left: 7.4px;
+  margin: 15px 0;
+}
+
+.about-page .middle-content .content-block button {
+  background: inherit;
+  font-family: inherit;
+  border: 1.5px solid black;
+  border-radius: 5px;
+  height: 40px;
+  width: 130px;
+  margin-left: 7.4px;
   margin-bottom: 15px;
-  width:100%;
-  margin-right:30px;
-  border-bottom: 2px dotted black;
-  
 }
 
-.Work_Together {
-  width:100%;
-  margin-bottom:30px;
+.about-page .bottom-content {
+  display: block;
 }
-.Work_Together p {
-  width:800px;
-  margin-bottom:30px;
 
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 30px;
 }
+.banner img{
+  width: 20%;
+}
+
+
+
+
+
 
 button {
     display: inline-block;
@@ -287,7 +327,7 @@ button {
 
 
 /*Responsive Styles*/
-@media (max-width:00px){
+@media (max-width:500px){
     nav{
         flex-direction:column ;
         align-items: center;
