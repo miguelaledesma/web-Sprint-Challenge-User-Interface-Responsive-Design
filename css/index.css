@@ -240,6 +240,12 @@ footer {
 
 /*About Page Styles*/
 
+.about-page .container body{
+  width: 700px;
+  margin: 0;
+}
+
+
 .about-page .top-content {
   display: block;
   padding-left: 20px;
