@@ -327,7 +327,7 @@ button {
 
 
 /*Responsive Styles*/
-@media(max-width: 600px){
+@media(max-width: 500px){
   
   .container .middle-content .boxes {
       flex-wrap: wrap;
